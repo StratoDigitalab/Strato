@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>STRATO · pagina non trovata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    html,body{height:100%;background:#06050A;color:#ECE9F5;font-family:Outfit,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+    body{
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      padding:6vw;text-align:center;
+      background:
+        radial-gradient(60% 50% at 50% 50%, rgba(167,139,250,0.10) 0%, transparent 70%),
+        #06050A;
+      overflow:hidden;
+    }
+    .eyebrow{
+      font-family:'JetBrains Mono',ui-monospace,monospace;
+      font-size:11px;letter-spacing:0.28em;text-transform:uppercase;
+      color:rgba(167,139,250,0.85);margin-bottom:22px;
+    }
+    h1{
+      font-weight:200;font-size:clamp(54px,9vw,140px);line-height:0.96;letter-spacing:-0.025em;
+      max-width:14ch;margin-bottom:14px;
+    }
+    h1 em{font-style:italic;color:rgba(167,139,250,0.92);font-weight:200;}
+    p{
+      max-width:48ch;color:rgba(236,233,245,0.7);font-size:15px;line-height:1.65;margin-bottom:30px;
+    }
+    a.back{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:14px 26px;border-radius:999px;background:#A78BFA;color:#0B0A10;
+      text-decoration:none;font-weight:600;font-size:14px;letter-spacing:0.02em;
+      transition:transform 320ms cubic-bezier(0.22,1,0.36,1),background 240ms ease;
+      box-shadow:0 14px 40px -10px rgba(167,139,250,0.45);
+    }
+    a.back:hover{transform:translateY(-2px);background:#b59cff}
+  </style>
+</head>
+<body>
+  <div class="eyebrow">· error · 404</div>
+  <h1>Hai imboccato uno <em>strato</em> che non esiste.</h1>
+  <p>La pagina che stavi cercando non vive più qui — o forse non è mai esistita. Torniamo all'inizio.</p>
+  <a class="back" href="/">← Torna alla home</a>
+</body>
+</html>

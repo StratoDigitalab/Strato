@@ -1,0 +1,27 @@
+# Dependencies (Netlify builds these on its side)
+node_modules/
+yarn.lock
+package-lock.json
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Netlify state
+.netlify/
+
+# Source maps & build artifacts we keep out of git
+*.map
+*.LICENSE.txt
+
+# Secrets — never commit .env to git
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
